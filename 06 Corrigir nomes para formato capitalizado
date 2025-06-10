@@ -1,0 +1,7 @@
+const corrigidos = jogadores.map(nome => {
+  return nome
+    .split(' ')
+    .map(palavra => palavra[0].toUpperCase() + palavra.slice(1).toLowerCase())
+    .join(' ');
+});
+console.log("6:", corrigidos);
