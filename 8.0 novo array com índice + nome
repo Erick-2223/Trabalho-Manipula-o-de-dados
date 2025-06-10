@@ -1,0 +1,2 @@
+const jogadoresIndexados = jogadores.map((nome, i) => `${i} - ${nome}`);
+console.log("8.0:", jogadoresIndexados);
