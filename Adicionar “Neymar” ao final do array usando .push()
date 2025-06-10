@@ -1,0 +1,3 @@
+let jogadores = ["Messi", "Cristiano Ronaldo", "Pelé"];
+jogadores.push("Neymar");
+console.log("1:", jogadores);
