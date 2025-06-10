@@ -1,0 +1,7 @@
+const padronizados = jogadores.map(nome =>
+  nome
+    .split(" ")
+    .map(p => p[0].toUpperCase() + p.slice(1).toLowerCase())
+    .join(" ")
+);
+console.log("10:", padronizados);
