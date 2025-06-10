@@ -1,0 +1,2 @@
+const comR = jogadores.filter(nome => nome.toLowerCase().includes("r"));
+console.log("7:", comR.length);
