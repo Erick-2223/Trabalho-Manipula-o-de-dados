@@ -1,0 +1,2 @@
+const nomesLongos = jogadores.filter(nome => nome.length > 10);
+console.log("8.1:", nomesLongos);
