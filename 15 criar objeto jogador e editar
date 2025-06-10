@@ -1,0 +1,10 @@
+let jogador = {
+  nome: "Neymar",
+  idade: 33,
+  posição: "Atacante"
+};
+
+jogador.idade = 34;
+jogador.clube = "PSG";
+
+console.log("15a:", jogador);
