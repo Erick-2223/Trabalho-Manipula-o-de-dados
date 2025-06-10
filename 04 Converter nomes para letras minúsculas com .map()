@@ -1,0 +1,2 @@
+const jogadoresMinusculos = jogadores.map(nome => nome.toLowerCase());
+console.log("4:", jogadoresMinusculos);
