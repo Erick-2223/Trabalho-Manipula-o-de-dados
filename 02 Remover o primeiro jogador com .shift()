@@ -1,0 +1,2 @@
+jogadores.shift();
+console.log("2:", jogadores);
