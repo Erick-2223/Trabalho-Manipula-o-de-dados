@@ -1,0 +1,4 @@
+const invertidos = jogadores.map(nome =>
+  nome.split('').reverse().join('')
+);
+console.log("11:", invertidos);
